@@ -36,3 +36,7 @@ Finally, run the test:
 ```
 yarn test
 ```
+
+## Remove `Experimental decorators warning in TypeScript compilation`
+
+See [Experimental decorators warning in TypeScript compilation](https://stackoverflow.com/questions/38271273/experimental-decorators-warning-in-typescript-compilation)

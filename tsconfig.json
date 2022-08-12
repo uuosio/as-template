@@ -17,5 +17,5 @@
     "emitDecoratorMetadata": true
   },
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
-  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./assembly/**/*.ts"]
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
 }
