@@ -19,7 +19,7 @@
     "assemblyscript"
   ],
   "scripts": {
-    "test": "yarn build && jest --no-cache",
+    "test": "npm run build && jest --no-cache",
     "build": "npx eosio-asc ./assembly/counter.ts"
   },
   "jest": {
