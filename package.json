@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "as-chain": "^0.0.96",
-    "eosio-asc": "0.2.74",
+    "eosio-asc": "^0.2.75",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
