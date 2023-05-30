@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "test": "jest --no-cache",
-    "build": "npx eosio-asc ./assembly/counter.ts"
+    "pytest": "ipyeos -m pytest -s -x test.py -k test_hello",
+    "build": "npx asm-contract build ./assembly/counter.ts --target release"
   },
   "jest": {
     "transform": {
@@ -32,8 +33,8 @@
     ]
   },
   "dependencies": {
-    "as-chain": "^0.0.96",
-    "eosio-asc": "^0.3.0",
+    "asm-chain": "^0.1.2",
+    "asm-contract": "^0.3.2",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
